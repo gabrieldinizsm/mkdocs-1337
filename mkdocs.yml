@@ -1,5 +1,4 @@
 site_name: MkDocs 1337
-site_url: https://james-willett.github.io/mkdocs-material-youtube-tutorial/
 theme:
   name: material
   features:
@@ -18,7 +17,7 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode 
-      primary: red
+      primary: deep-purple
       accent: purple 
     - scheme: slate 
       toggle:
@@ -32,15 +31,13 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          
+
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/james-willett
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/TheJamesWillett
+      link: https://github.com/gabrieldinizsm
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/willettjames/
+      link: https://www.linkedin.com/in/gabriel-diniz-42a73a165/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -60,4 +57,4 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/james-willett"  target="_blank" rel="noopener">James Willett</a>
+  &copy; 2024 <a href="https://github.com/gabrieldinizsm"  target="_blank" rel="noopener">Gabriel Diniz</a>
